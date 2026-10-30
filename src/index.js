@@ -1,13 +1,13 @@
-const express = require("express");
+﻿const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    mensaje: "�Aplicaci�n desplegada con Dokploy!",
-    institucion: "Universidad del Quind�o",
-    programa: "Ingenier�a de Sistemas y Computaci�n",
-    curso: "Administraci�n de Infraestructura de TI",
+    mensaje: "¡Aplicación desplegada con Dokploy!",
+    institucion: "Universidad del Quindío",
+    programa: "Ingeniería de Sistemas y Computación",
+    curso: "Administración de Infraestructura de TI",
     plataforma: "Dokploy PaaS",
     fecha: new Date().toISOString()
   });
